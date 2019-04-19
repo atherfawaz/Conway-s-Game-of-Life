@@ -11,7 +11,7 @@ Multi-threaded implementation in C of Conway's Game of Life using POSIX threads.
     Comment out line 53 so that the code stops for a second after every 500 generations.
 
 4.  The code runs in an infinite loop right now. If it is supposed to stop after a certain
-    number of iterations, that can be implemented by forcefully exiting all threads when 
+    number of iterations, that can be implemented by forcefully exiting all threads when the 
     generations variable reaches a certain threshold. It is to be noted that generations is not a 
     shared variable and it is only manipulated by the zeroth thread, so the condition can be 
     easily implemented.
