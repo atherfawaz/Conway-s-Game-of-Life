@@ -6,7 +6,6 @@ Multi-threaded implementation in C of Conway's Game of Life using POSIX threads.
     
 2.  Use the following command to compile and run the code on your machine:
         gcc GameofLife.c -lpthread -lrt
-        ./a.out
 
 3.  No sleep(n) has been implemented so the multi-threaded code runs really fast.
     Comment out line 53 so that the code stops for a second after every 500 generations.
